@@ -44,6 +44,9 @@ jobs:
     # Checks that all Terraform configuration files adhere to a canonical format
     - name: Terraform Format
       run: terraform fmt -check
+    - name: Terraform import
+      run: terraform import module.RG.azurerm_resource_group.Jaswant1 /subscriptions/75330da7-9d4b-4fbe-bb6f-8c4125ece9a6/resourceGroups/jj_rg2
+
 
     # Generates an execution plan for Terraform
     - name: Terraform Plan
