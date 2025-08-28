@@ -1,0 +1,18 @@
+resource_group_name       = "jj_rg1"
+virtual_network_name      = "jj_vnet1"
+location                  = "eastus"
+azurerm_subnet_name       = "jj_subnet1"
+nic_name                  = "jj_nic1"
+ip_configuration_name     = "jjipconfig1"
+Docker_vm_name            = "jjdockervm1"
+vm_size                   = "Standard_D2s_v3"
+image_publisher           = "Canonical"
+os_disk_name              = "jj1_os_disk"
+os_disk_caching           = "ReadWrite"
+os_disk_create_option     = "FromImage"
+os_disk_managed_disk_type = "Standard_LRS"
+admin_username            = "localadmin1"
+admin_password            = "localadmin@1234"
+computer_name             = "jjcomputer1"
+
+
